@@ -23,6 +23,7 @@
   "dependencies": {
     "@types/node": "16.x",
     "mongodb": "file:mongodb-6.8.0.tgz",
+    "tslib": "^2.6.3",
     "typescript": "^5.5.3"
   }
 }
