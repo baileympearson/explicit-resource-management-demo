@@ -1,5 +1,7 @@
 import { MongoClient } from "mongodb";
 
+console.log('oldest node types, import helpers & latest ts');
+
 async function main() {
 	await using client = new MongoClient('mongodb://localhost:27027');
 	await using session = client.startSession();
