@@ -1,11 +1,11 @@
 {
-  "name": "@test/example",
+  "name": "@test/driver-impl",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Bailey Pearson <bailey.pearson@mongodb.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/example.js",
+  "main": "lib/driver-impl.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -17,6 +17,11 @@
     "access": "public"
   },
   "scripts": {
-    "test": "node ./__tests__/@test/example.test.js"
+    "run": "npm run build && node index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "mongodb": "file:mongodb-6.8.0.tgz",
+    "typescript": "^5.5.3"
   }
 }
