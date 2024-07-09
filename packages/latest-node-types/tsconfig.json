@@ -21,7 +21,7 @@
 	  "outDir": "out",
 	  // We want the sourcemaps in a separate file
 	  "inlineSourceMap": false,
-	  "sourceMap": true,
+	  "sourceMap": false,
 	  // API-Extractor uses declaration maps to report problems in source, no need to distribute
 	  "declaration": false,
 	  "declarationMap": false,
