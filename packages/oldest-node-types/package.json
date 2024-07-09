@@ -1,5 +1,5 @@
 {
-  "name": "@test/driver-impl",
+  "name": "@test/oldest-node-types",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Bailey Pearson <bailey.pearson@mongodb.com>",
@@ -17,10 +17,11 @@
     "access": "public"
   },
   "scripts": {
-    "run": "npm run build && node index.js",
+    "run": "npm run build && node out/index.js",
     "build": "tsc"
   },
   "dependencies": {
+    "@types/node": "16.x",
     "mongodb": "file:mongodb-6.8.0.tgz",
     "typescript": "^5.5.3"
   }
