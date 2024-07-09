@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@types/node": "^20.14.10",
-    "mongodb": "file:mongodb-6.8.0.tgz",
+    "mongodb": "file:../../mongodb-6.8.0.tgz",
     "tslib": "^2.6.3",
     "typescript": "^5.5.3"
   }
