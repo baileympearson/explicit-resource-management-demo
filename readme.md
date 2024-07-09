@@ -1,4 +1,8 @@
 
+This package contains a number of examples of explicit resource management with the driver.
+
+mongodb-6.8.0.tgz contains a POC implementation of explicit resource management in the driver and is
+used throughout this repo.
 
 ## installing dependencies
 
