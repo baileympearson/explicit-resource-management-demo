@@ -1,4 +1,4 @@
-import { MongoClient } from "mongodb";
+import { MongoClient } from "mongodb/next";
 
 console.log('latest node types, import helpers & latest ts');
 async function main() {

@@ -5,8 +5,8 @@
 	  "strict": true,
 	  "alwaysStrict": true,
 	  "target": "ES2021",
-	  "module": "commonJS",
-	  "moduleResolution": "node",
+	  "module": "CommonJS",
+	  "moduleResolution": "Node",
 	  "skipLibCheck": true,
 	  "lib": [
 		"ES2015"

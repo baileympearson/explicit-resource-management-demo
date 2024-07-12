@@ -1,3 +1,4 @@
+// this file is broken under this configuration
 import { MongoClient } from "mongodb";
 
 console.log('no resource management, old lib version, ts 4.5');
